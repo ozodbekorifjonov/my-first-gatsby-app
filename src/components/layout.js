@@ -45,6 +45,11 @@ const Layout = ({ pageTitle, children }) => {
                             Blog
                         </Link>
                     </li>
+                    <li className={navLinkItem}>
+                        <Link to="/ssr" className={navLinkText}>
+                            SSR
+                        </Link>
+                    </li>
                 </ul>
             </nav>
             <main>
